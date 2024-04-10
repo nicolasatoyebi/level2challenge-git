@@ -1,0 +1,46 @@
+.page-body {
+    background-color: #ABC3FF;
+    height: 100vh;
+}
+
+.page-content {
+    border-radius: 10px;
+    width: 70%;
+}
+
+.page-img {
+    background-image: linear-gradient(to right bottom, rgba(171, 195, 255, .6), rgba(0, 0, 0, .1));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-text {
+    font-weight: 300;
+}
+
+.hero-img {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.signup-section {
+    width: 50%;
+}
+
+.cont-signup {
+    width: 70%;
+}
+
+.pg-btn-1 {
+    width: 40%;
+    height: 120px;
+}
+
+.pg-btn-2 {
+    width: 40%;
+}
+
+.create-account {
+    background-color: #ABC3FF;
+}

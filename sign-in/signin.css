@@ -4,12 +4,13 @@
 }
 
 .page-content {
-    border-radius: 10px;
+    border-radius: 50px;
     width: 70%;
+    height: 90vh;
 }
 
 .page-img {
-    background-image: linear-gradient(to right bottom, rgba(171, 195, 255, .6), rgba(0, 0, 0, .1));
+    background-image: linear-gradient(to right bottom, rgba(171, 195, 255, .6), rgba(171, 195, 255, .6)), url(/public/images/panel-img.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -28,7 +29,7 @@
     width: 50%;
 }
 
-.cont-signup {
+.cont-signin {
     width: 70%;
 }
 

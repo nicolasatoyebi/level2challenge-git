@@ -18,13 +18,21 @@
     width: 50%;
 }
 
+.icon-bg {
+    width: 60%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(171, 195, 255, .5);
+}
+
 .cont-signup {
     width: 70%;
 }
 
 .pg-btn-1 {
     width: 40%;
-    height: 120px;
 }
 
 .pg-btn-2 {
@@ -33,4 +41,8 @@
 
 .create-account {
     background-color: #ABC3FF;
+}
+
+.quick-sign-up {
+    width: 40%;
 }

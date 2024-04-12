@@ -26,17 +26,25 @@
         <div class="signup-section">
             <div class="cont-signup mx-auto py-4">
                 <h3 class="text-center mb-5">Sign up</h3>
-                <div class="d-flex justify-content-between px-5 mb-5">
-                    <div class="rounded border border-info-subtle pg-btn-1" id="pg-btn-1">
-
+                <div class="d-flex justify-content-between px-5 mb-3">
+                    <div class="rounded border border-info-subtle pg-btn-1 d-flex flex-column justify-content-center align-items-center py-2" id="pg-btn-1">
+                        <div class="icon-bg">
+                            <img src="/public/images/prof-icon.png" alt="" class="py-2">
+                        </div>
+                        <span class="text-primary fw-semibold">Sign in</span>
                     </div>
-                    <div class="rounded border border-dark pg-btn-2" id="pg-btn-2">
-
+                    <div class="rounded border border-dark pg-btn-2 d-flex flex-column justify-content-center align-items-center py-2" id="pg-btn-2">
+                        <div class="icon-bg mx-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nav-icon" id="signUp">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                        </svg>
+                        </div>
+                        <span class="fw-semibold">Sign up</span>
                     </div>
                 </div>
 
                 <div class="signUp-form">
-                    <div class="mb-5">
+                    <div class="mb-3">
                         <label for="email" class="form-label">Email address</label>
                         <input type="email" class="form-control" id="email" placeholder="Enter your email">
                     </div>
@@ -44,7 +52,29 @@
                         <label for="password" class="form-label">Create password</label>
                         <input type="password" class="form-control" id="password" placeholder="More than 8 characters">
                     </div>
-                    <button class="btn w-75 create-account" id="createAccount" type="submit">Get Started</button>
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Accept <a href="#" class="text-decoration-none">Terms of Service</a> and <a href="#" class="text-decoration-none">Privacy Policy</a>
+                        </label>
+                      </div>
+                    <button class="btn w-100 create-account mb-3" id="createAccount" type="submit">Get Started</button>
+                    <a href="#" class="text-decoration-none mb-3 d-block text-center">Already have an account? Sign in</a>
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <img src="/public/images/Vector 3.png" alt="">
+                        <span>Quick Sign up</span>
+                        <img src="/public/images/Vector 3.png" alt="">
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="btn rounded-pill border-dark quick-sign-up">
+                            <img src="/public/images/Group 2.png" alt="">
+                            <span>Google</span>
+                        </div>
+                        <div class="btn rounded-pill border-dark quick-sign-up">
+                            <img src="/public/images/Vector.png" alt="">
+                            <span>Facebook</span>
+                        </div>
+                    </div>
                 </div>
 
             </div>
